@@ -380,31 +380,43 @@ function initContactModal() {
 const CERTIFICATES_DATA = [
   {
     id: 'cert-1',
-    title: 'Hackathon Name',
-    organization: 'Event / Organization · 2026',
-    image: 'assets/certificates/certificate-1.svg',
-    fileUrl: 'assets/certificates/certificate-1.svg'
+    title: 'HACK-ADHAAY (National Level Hackathon)',
+    organization: 'Lovely Professional University (LPU)',
+    year: '2026',
+    image: 'assets/certificates/certificate-1.png',
+    fileUrl: 'assets/certificates/certificate-1.pdf'
   },
   {
     id: 'cert-2',
-    title: 'Hackathon Name',
-    organization: 'Event / Organization · 2026',
-    image: 'assets/certificates/certificate-2.svg',
-    fileUrl: 'assets/certificates/certificate-2.svg'
+    title: 'Code Carvan 3.0',
+    organization: 'Coding Blocks & LPU',
+    year: '2026',
+    image: 'assets/certificates/certificate-2.png',
+    fileUrl: 'assets/certificates/certificate-2.pdf'
   },
   {
     id: 'cert-3',
-    title: 'Hackathon Name',
-    organization: 'Event / Organization · 2026',
-    image: 'assets/certificates/certificate-3.svg',
-    fileUrl: 'assets/certificates/certificate-3.svg'
+    title: 'Hackathon-101',
+    organization: 'ARC (Automation & Robotics Club)',
+    year: '2026',
+    image: 'assets/certificates/certificate-3.png',
+    fileUrl: 'assets/certificates/certificate-3.pdf'
   },
   {
     id: 'cert-4',
-    title: 'Hackathon Name',
-    organization: 'Event / Organization · 2026',
-    image: 'assets/certificates/certificate-4.svg',
-    fileUrl: 'assets/certificates/certificate-4.svg'
+    title: 'CODECARVAN 3.0 Hackathon',
+    organization: 'Coding Blocks & LPU',
+    year: '2025',
+    image: 'assets/certificates/certificate-4.png',
+    fileUrl: 'assets/certificates/certificate-4.pdf'
+  },
+  {
+    id: 'cert-5',
+    title: 'Code Carvan 3.0 (Mentor Session)',
+    organization: 'Coding Blocks & LPU',
+    year: '2026',
+    image: 'assets/certificates/certificate-5.png',
+    fileUrl: 'assets/certificates/certificate-5.pdf'
   }
 ];
 
