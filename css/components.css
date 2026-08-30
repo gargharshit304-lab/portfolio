@@ -96,7 +96,72 @@
   width: 1px;
   height: 16px;
   background-color: var(--border-medium);
-  margin: 0 -0.5rem;
+  margin: 0 -0.25rem;
+}
+
+/* Compact Navbar Social Buttons */
+.nav-btn {
+  height: 36px;
+  padding: 0 12px;
+  border-radius: var(--radius-md); /* 8px */
+  font-size: 13px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  line-height: 1;
+  transition: transform var(--duration-fast) var(--ease-out),
+              background-color var(--duration-fast) var(--ease-out),
+              box-shadow var(--duration-fast) var(--ease-out);
+}
+
+.nav-btn svg {
+  display: block;
+  flex-shrink: 0;
+}
+
+.nav-btn .external-arrow {
+  font-size: 0.85em;
+  opacity: 0.85;
+  transition: transform var(--duration-fast) var(--ease-out);
+}
+
+.nav-btn:hover {
+  transform: translateY(-1px);
+}
+
+.nav-btn:hover .external-arrow {
+  transform: translate(1px, -1px);
+  opacity: 1;
+}
+
+/* GitHub Button - Black Theme */
+.nav-btn-github {
+  background-color: #18191B;
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 1px 3px rgba(24, 25, 27, 0.12);
+}
+
+.nav-btn-github:hover {
+  background-color: #2D2E32;
+  color: #FFFFFF;
+  box-shadow: 0 4px 10px rgba(24, 25, 27, 0.2);
+}
+
+/* LinkedIn Button - LinkedIn Blue Theme */
+.nav-btn-linkedin {
+  background-color: #0A66C2;
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 1px 3px rgba(10, 102, 194, 0.2);
+}
+
+.nav-btn-linkedin:hover {
+  background-color: #004182;
+  color: #FFFFFF;
+  box-shadow: 0 4px 10px rgba(10, 102, 194, 0.3);
 }
 
 /* Mobile Nav Toggle */
