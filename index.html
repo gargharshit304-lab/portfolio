@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harshit Garg — Developer &amp; Builder</title>
+  <meta name="description" content="Harshit Garg is a developer and builder crafting digital products that turn ideas into reality. Focused on web development, problem solving, and modern digital experiences.">
+  <meta name="theme-color" content="#F8F7F3">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Harshit Garg — Developer &amp; Builder">
+  <meta property="og:description" content="I build digital products that turn ideas into reality.">
+  
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+
+  <!-- Sticky Navbar -->
+  <header class="site-header animate-nav-entrance" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" id="nav-brand" aria-label="Harshit Garg Home">
+        HARSHIT GARG
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <ul class="nav-links-desktop">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#toolkit" class="nav-link">Toolkit</a></li>
+          <li><a href="#work" class="nav-link">Work</a></li>
+          <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-divider" aria-hidden="true"></li>
+          <li>
+            <a href="https://github.com/gargharshit304-lab" target="_blank" rel="noopener noreferrer" class="nav-link" aria-label="GitHub (opens in new tab)">
+              GitHub <span class="external-arrow">↗</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/gargharshit304/" target="_blank" rel="noopener noreferrer" class="nav-link" aria-label="LinkedIn (opens in new tab)">
+              LinkedIn <span class="external-arrow">↗</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Mobile Navigation Hamburger Toggle -->
+      <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg id="menu-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <ul class="mobile-nav-list">
+      <li><a href="#about" class="mobile-nav-link">About</a></li>
+      <li><a href="#toolkit" class="mobile-nav-link">Toolkit</a></li>
+      <li><a href="#work" class="mobile-nav-link">Work</a></li>
+      <li><a href="#achievements" class="mobile-nav-link">Achievements</a></li>
+      <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+    </ul>
+    <div class="mobile-external-links">
+      <a href="https://github.com/gargharshit304-lab" target="_blank" rel="noopener noreferrer" class="mobile-external-link">
+        GitHub ↗
+      </a>
+      <a href="https://www.linkedin.com/in/gargharshit304/" target="_blank" rel="noopener noreferrer" class="mobile-external-link">
+        LinkedIn ↗
+      </a>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section section" id="hero" aria-label="Hero Introduction">
+      <div class="container">
+        <div class="hero-grid">
+          <!-- Left Column: Typography & CTAs -->
+          <div class="hero-content">
+            <div class="hero-eyebrow hero-animate-1">
+              DEVELOPER • BUILDER • LEARNER
+            </div>
+
+            <h1 class="hero-heading hero-animate-2">
+              I build digital products<br>
+              that turn ideas into reality.
+            </h1>
+
+            <p class="hero-description hero-animate-3">
+              I'm Harshit Garg — a developer who enjoys building useful products, solving problems, and turning ideas into experiences people can actually use.
+            </p>
+
+            <div class="hero-actions hero-animate-4">
+              <a href="#work" class="btn btn-primary" id="hero-btn-work">
+                Explore my work ↓
+              </a>
+              <a href="#contact" class="btn btn-secondary" id="hero-btn-connect">
+                Let's connect ↗
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Circular Profile Picture -->
+          <div class="hero-media hero-animate-profile">
+            <div class="profile-image-frame">
+              <img src="assets/images/profile.jpg" alt="Harshit Garg" class="profile-image" width="340" height="340" loading="eager" decoding="async">
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-scroll-wrapper">
+          <a href="#about" class="hero-scroll-prompt hero-animate-5" aria-label="Scroll to explore">
+            SCROLL TO EXPLORE <span class="hero-scroll-arrow">↓</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section section" id="about" aria-label="About Harshit Garg">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-main">
+            <span class="section-label reveal-on-scroll">01 — ABOUT</span>
+            <h2 class="section-title reveal-on-scroll">More than just code.</h2>
+            <p class="about-body reveal-on-scroll">
+              I enjoy taking an idea, breaking it down into smaller problems, and gradually turning it into a working product. I'm constantly learning through building — exploring web development, problem solving, AI, and new ways to create useful digital experiences.
+            </p>
+
+            <div class="about-highlights">
+              <!-- Highlight 1: BUILD -->
+              <div class="highlight-item reveal-on-scroll stagger-1">
+                <div class="highlight-title">
+                  BUILD
+                </div>
+                <div class="highlight-desc">
+                  Real projects &amp; experiments
+                </div>
+              </div>
+
+              <!-- Highlight 2: LEARN -->
+              <div class="highlight-item reveal-on-scroll stagger-2">
+                <div class="highlight-title">
+                  LEARN
+                </div>
+                <div class="highlight-desc">
+                  DSA · Web · AI
+                </div>
+              </div>
+
+              <!-- Highlight 3: EXPLORE -->
+              <div class="highlight-item reveal-on-scroll stagger-3">
+                <div class="highlight-title">
+                  EXPLORE
+                </div>
+                <div class="highlight-desc">
+                  New technologies &amp; ideas
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Toolkit / Tech Stack Section -->
+    <section class="toolkit-section section" id="toolkit" aria-label="Tools and Technologies">
+      <div class="container">
+        <div class="toolkit-header reveal-on-scroll">
+          <span class="section-label">02 — TOOLKIT</span>
+          <h2 class="section-title">Tools I use to build.</h2>
+          <p class="section-subtitle">
+            A collection of technologies and tools I use to turn ideas into working products.
+          </p>
+        </div>
+
+        <div class="toolkit-categories">
+          
+          <!-- Category 1: LANGUAGES -->
+          <div class="toolkit-category reveal-on-scroll">
+            <h3 class="category-title">LANGUAGES</h3>
+            <div class="tech-grid">
+              <div class="tech-card reveal-on-scroll stagger-1">
+                <span class="tech-icon" aria-hidden="true">
+                  <svg viewBox="0 0 128 128" width="28" height="28">
+                    <path fill="#00599C" d="M117.5 38.6l-50.4-29c-1.9-1.1-4.2-1.1-6.1 0l-50.4 29c-1.9 1.1-3 3.1-3 5.3v58.2c0 2.2 1.2 4.2 3 5.3l50.4 29c.9.5 2 1 3.1 1s2.1-.3 3.1-.9l50.4-29c1.9-1.1 3-3.1 3-5.3V43.9c0-2.2-1.2-4.2-3-5.3z"/>
+                    <path fill="#FFFFFF" d="M64 22.8l40.3 23.3v43.7L64 103.1 23.7 79.8V36.1L64 22.8m0-8.8L16 27.6v58.8l48 27.6 48-27.6V27.6L64 14z"/>
+                    <path fill="#FFFFFF" d="M57.6 46.8c-2.4 0-4.6.6-6.7 1.8-2.1 1.2-3.7 2.8-4.9 4.9-1.2 2.1-1.8 4.3-1.8 6.7 0 2.4.6 4.6 1.8 6.7 1.2 2.1 2.8 3.7 4.9 4.9 2.1 1.2 4.3 1.8 6.7 1.8 2.7 0 5-.8 7-2.3 2-1.5 3.3-3.6 4-6.2h-6.8c-.5 1-1.2 1.8-2.1 2.3-.9.5-1.9.8-3 .8-1.5 0-2.8-.4-4-1.2-1.2-.8-2.1-1.8-2.7-3.1-.6-1.3-.9-2.7-.9-4.3 0-1.6.3-3 .9-4.3.6-1.3 1.5-2.3 2.7-3.1 1.2-.8 2.5-1.2 4-1.2 1.1 0 2.1.3 3 .8.9.5 1.6 1.3 2.1 2.3h6.8c-.7-2.6-2-4.7-4-6.2-2-1.5-4.3-2.3-7-2.3zM76.8 56.4h-3.2v-3.2h-3.2v3.2h-3.2v3.2h3.2v3.2h3.2v-3.2h3.2v-3.2zm14.4 0h-3.2v-3.2h-3.2v3.2h-3.2v3.2h3.2v3.2h3.2v-3.2h3.2v-3.2z"/>
+                  </svg>
+                </span>
+                <span class="tech-name">C++</span>
+              </div>
+              <div class="tech-card reveal-on-scroll stagger-2">
+                <span class="tech-icon" aria-hidden="true">
+                  <svg viewBox="0 0 128 128" width="28" height="28">
+                    <path fill="#F7DF1E" d="M0 0h128v128H0z"/>
+                    <path fill="#000000" d="M67.3 104c3.3 5.3 7.8 8.8 15.6 8.8 6.6 0 10.8-3.3 10.8-8 0-5.6-4.5-7.6-12-10.9l-4.1-1.8c-11.8-5.1-19.6-11.5-19.6-24.8 0-12.3 9.7-21.7 25-21.7 10.9 0 18.7 3.9 24.1 13.5l-12 7.7c-3.1-5.1-6.5-7.1-12.1-7.1-5.3 0-8.9 3.5-8.9 7.6 0 5.3 3.5 7.3 10.6 10.4l4.1 1.8c14 6 21.5 12.1 21.5 25.5 0 14.7-11.4 23.3-27.9 23.3-15.6 0-25.2-7.4-30.8-18.4l11.7-7.9zM24.7 102.8c2.4 4.1 5.6 7.4 11.2 7.4 5.6 0 9.1-2.4 9.1-11.8V46.6h15.6v52.6c0 17.6-10.2 25.4-24.7 25.4-13 0-21.1-6.8-24.9-15.4l13.7-6.4z"/>
+                  </svg>
+                </span>
+                <span class="tech-name">JavaScript</span>
+              </div>
+              <div class="tech-card reveal-on-scroll stagger-3">
+                <span class="tech-icon" aria-hidden="true">
+                  <svg viewBox="0 0 128 128" width="28" height="28">
+                    <path fill="#3178C6" d="M0 0h128v128H0z"/>
+                    <path fill="#FFFFFF" d="M19.7 46.6h38.2v12.3H32.8V113H19.7V58.9H20V46.6zm54 57.4c3.3 5.3 7.8 8.8 15.6 8.8 6.6 0 10.8-3.3 10.8-8 0-5.6-4.5-7.6-12-10.9l-4.1-1.8c-11.8-5.1-19.6-11.5-19.6-24.8 0-12.3 9.7-21.7 25-21.7 10.9 0 18.7 3.9 24.1 13.5l-12 7.7c-3.1-5.1-6.5-7.1-12.1-7.1-5.3 0-8.9 3.5-8.9 7.6 0 5.3 3.5 7.3 10.6 10.4l4.1 1.8c14 6 21.5 12.1 21.5 25.5 0 14.7-11.4 23.3-27.9 23.3-15.6 0-25.2-7.4-30.8-18.4l11.7-7.9z"/>
+                  </svg>
+                </span>
+                <span class="tech-name">TypeScript</span>
+              </div>
+              <div class="tech-card reveal-on-scroll stagger-1">
+                <span class="tech-icon" aria-hidden="true">
+                  <svg viewBox="0 0 128 128" width="28" height="28">
+                    <path fill="#E34F26" d="M18.8 11.5h90.4l-8.2 92.4-37 10.3-37-10.3z"/>
+                    <path fill="#EF652A" d="M64 121.2l30.6-8.5 7.2-80.9H64z"/>
+                    <path fill="#FFFFFF" d="M64 54.6H43.9l-1.4-15.7H64V24.3H25.4l4.3 46H64zM64 87.2l-14.7-4-1-10.8H33.4l1.9 21.5 28.7 8z"/>
+                    <path fill="#E0E0E0" d="M64 54.6h20.1l-1.9 21.8-18.2 5v14.7l28.7-8 3.8-43.5H64zM64 24.3v14.6h37.1l1.3-14.6z"/>
+                  </svg>
+                </span>
+                <span class="tech-name">HTML5</span>
+              </div>
+              <div class="tech-card reveal-on-scroll stagger-2">
+                <span class="tech-icon" aria-hidden="true">
+                  <svg viewBox="0 0 128 128" width="28" height="28">
+                    <path fill="#1572B6" d="M18.8 11.5h90.4l-8.2 92.4-37 10.3-37-10.3z"/>
+                    <path fill="#33A9DC" d="M64 121.2l30.6-8.5 7.2-80.9H64z"/>
+                    <path fill="#FFFFFF" d="M64 54.6H43.9l-1.4-15.7h38.6l1.3-14.6H25.4l4.3 46H64zM64 87.2l-14.7-4-1-10.8H33.4l1.9 21.5 28.7 8z"/>
+                    <path fill="#E0E0E0" d="M64 54.6v14.6h18.2l-1.9 21.8-18.2 5v14.7l28.7-8 3.8-43.5z"/>
+                  </svg>
+                </span>
+                <span class="tech-name">CSS3</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: FRONTEND -->
+          <div class="toolkit-category reveal-on-scroll">
+            <h3 class="category-title">FRONTEND</h3>
+            <div class="tech-grid">
+              <div class="tech-card reveal-on-scroll stagger-1">
+                <span class="tech-icon" aria-hidden="true">
+                  <svg viewBox="0 0 128 128" width="28" height="28">
+                    <circle cx="64" cy="64" r="11.4" fill="#61DAFB"/>
+                    <g fill="none" stroke="#61DAFB" stroke-width="7">
+                      <ellipse cx="64" cy="64" rx="52" ry="20"/>
+                      <ellipse cx="64" cy="64" rx="52" ry="20" transform="rotate(60 64 64)"/>
+                      <ellipse cx="64" cy="64" rx="52" ry="20" transform="rotate(120 64 64)"/>
+                    </g>
+                  </svg>
+                </span>
+                <span class="tech-name">React</span>
+              </div>
+              <div class="tech-card reveal-on-scroll stagger-2">
+                <span class="tech-icon" aria-hidden="true">
+                  <svg viewBox="0 0 128 128" width="28" height="28">
+                    <path fill="#06B6D4" d="M38.4 32c-15.4 0-25 7.7-28.8 23.1 5.8-7.7 12.5-10.6 20.2-8.7 4.4 1.1 7.5 4.3 11 7.8 5.7 5.7 12.3 12.3 26.8 12.3 15.4 0 25-7.7 28.8-23.1-5.8 7.7-12.5 10.6-20.2 8.7-4.4-1.1-7.5-4.3-11-7.8-5.7-5.7-12.3-12.3-26.8-12.3zm-28.8 32c-15.4 0-25 7.7-28.8 23.1 5.8-7.7 12.5-10.6 20.2-8.7 4.4 1.1 7.5 4.3 11 7.8 5.7 5.7 12.3 12.3 26.8 12.3 15.4 0 25-7.7 28.8-23.1-5.8 7.7-12.5 10.6-20.2 8.7-4.4-1.1-7.5-4.3-11-7.8-5.7-5.7-12.3-12.3-26.8-12.3z" transform="translate(19, 16) scale(1.1)"/>
+                  </svg>
+                </span>
+                <span class="tech-name">Tailwind CSS</span>
+              </div>
+              <div class="tech-card reveal-on-scroll stagger-3">
+                <span class="tech-icon" aria-hidden="true">
+                  <svg viewBox="0 0 128 128" width="28" height="28">
+                    <path fill="url(#viteGradient1)" d="M123.5 18.8L66.9 120.4c-1.2 2.2-4.3 2.2-5.5 0L4.5 18.8c-1.4-2.6.8-5.6 3.6-5.1l54.4 9.1c.9.1 1.8-.1 2.5-.6L120 13.7c2.8-2.1 6.5.6 5.5 3.6l-2 1.5z"/>
+                    <path fill="url(#viteGradient2)" d="M84.5 13.9L47 88c-.6 1.2-2.3 1.2-2.9 0L24.7 49.3c-.4-.8.3-1.7 1.2-1.5l17.7 3c.7.1 1.4-.1 2-.5l38-23.6c1.1-.7 2.4.5 1.7 1.6z"/>
+                    <defs>
+                      <linearGradient id="viteGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#41D1FF"/>
+                        <stop offset="100%" stop-color="#BD34FE"/>
+                      </linearGradient>
+                      <linearGradient id="viteGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#FFEA83"/>
+                        <stop offset="100%" stop-color="#FFDD35"/>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </span>
+                <span class="tech-name">Vite</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 3: BACKEND & DATABASE -->
+          <div class="toolkit-category reveal-on-scroll">
+            <h3 class="category-title">BACKEND &amp; DATABASE</h3>
+            <div class="tech-grid">
+              <div class="tech-card reveal-on-scroll stagger-1">
+                <span class="tech-icon" aria-hidden="true">
+                  <svg viewBox="0 0 128 128" width="28" height="28">
+                    <path fill="#339933" d="M64 8.7L14.7 37.2v57.1L64 122.8l49.3-28.5V37.2L64 8.7zm28.7 75.6c0 1.5-.8 2.8-2.1 3.5L65.8 102c-1.1.6-2.5.6-3.6 0L37.4 87.8c-1.3-.7-2.1-2-2.1-3.5V57.1c0-1.5.8-2.8 2.1-3.5L62.2 39.4c1.1-.6 2.5-.6 3.6 0l24.8 14.2c1.3.7 2.1 2 2.1 3.5v27.2z"/>
+                  </svg>
+                </span>
+                <span class="tech-name">Node.js</span>
+              </div>
+              <div class="tech-card reveal-on-scroll stagger-2">
+                <span class="tech-icon" aria-hidden="true">
+                  <svg viewBox="0 0 128 128" width="28" height="28">
+                    <circle cx="64" cy="64" r="56" fill="#18191B"/>
+                    <path fill="#FFFFFF" d="M38 42h22c10 0 17 6 17 15 0 7-5 13-12 14l14 23H65L53 72H48v23H38V42zm10 21h11c5 0 8-3 8-7 0-4-3-6-8-6H48v13z"/>
+                  </svg>
+                </span>
+                <span class="tech-name">Express</span>
+              </div>
+              <div class="tech-card reveal-on-scroll stagger-3">
+                <span class="tech-icon" aria-hidden="true">
+                  <svg viewBox="0 0 128 128" width="28" height="28">
+                    <path fill="#47A248" d="M64.6 6c-1.2 0-2.4 1.2-2.4 2.4 0 20.3-13.8 35.8-23.7 50.1-10.4 15-18.7 30.5-12.7 49 4.3 13.2 16 20.5 29.5 20.5s25.2-7.3 29.5-20.5c6-18.5-2.3-34-12.7-49C62.2 44.2 48.4 28.7 48.4 8.4c0-1.2-1.2-2.4-2.4-2.4h18.6z" transform="translate(16, 0) scale(0.75)"/>
+                    <path fill="#47A248" d="M64 6c-.8 0-1.5.7-1.5 1.5v113c.8.2 1.6.2 2.4.2s1.6 0 2.4-.2V7.5c0-.8-.7-1.5-1.5-1.5z"/>
+                  </svg>
+                </span>
+                <span class="tech-name">MongoDB</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 4: TOOLS & PLATFORMS -->
+          <div class="toolkit-category reveal-on-scroll">
+            <h3 class="category-title">TOOLS &amp; PLATFORMS</h3>
+            <div class="tech-grid">
+              <div class="tech-card reveal-on-scroll stagger-1">
+                <span class="tech-icon" aria-hidden="true">
+                  <svg viewBox="0 0 128 128" width="28" height="28">
+                    <path fill="#F05032" d="M123.6 57.5L70.5 4.4c-2.4-2.4-6.3-2.4-8.7 0L49.3 16.9l14.2 14.2c3 1 5.2 3.8 5.2 7.1 0 1.2-.3 2.3-.9 3.3l13.7 13.7c1-.6 2.1-.9 3.3-.9 4.1 0 7.5 3.4 7.5 7.5s-3.4 7.5-7.5 7.5-7.5-3.4-7.5-7.5c0-1.2.3-2.3.9-3.3L64.5 42.3v30.9c.9.5 1.6 1.3 2.1 2.3 1.7 3.8.1 8.3-3.7 10-3.8 1.7-8.3.1-10-3.7-1.2-2.7-.8-5.8.9-8.1 1.1-1.5 2.8-2.4 4.7-2.6V39.6c-1.9-.3-3.6-1.2-4.7-2.6-1.5-2-1.9-4.7-1.1-7.1L32.8 15.7 4.4 64.1c-2.4 2.4-2.4 6.3 0 8.7l53.1 53.1c2.4 2.4 6.3 2.4 8.7 0l57.4-59.7c2.4-2.4 2.4-6.3 0-8.7z"/>
+                  </svg>
+                </span>
+                <span class="tech-name">Git</span>
+              </div>
+              <div class="tech-card reveal-on-scroll stagger-2">
+                <span class="tech-icon" aria-hidden="true">
+                  <svg viewBox="0 0 128 128" width="28" height="28">
+                    <path fill="#181717" fill-rule="evenodd" clip-rule="evenodd" d="M64 5.333C31.6 5.333 5.333 31.6 5.333 64c0 25.92 16.8 47.893 40.107 55.627 2.933.533 4-1.28 4-2.827 0-1.44-.053-6.187-.08-11.253-16.347 3.547-19.787-6.88-19.787-6.88-2.667-6.773-6.507-8.587-6.507-8.587-5.333-3.653.4-3.573.4-3.573 5.893.427 9 6.053 9 6.053 5.253 9 13.76 6.4 17.12 4.88.533-3.813 2.053-6.4 3.733-7.867-13.04-1.493-26.747-6.533-26.747-29.04 0-6.4 2.293-11.653 6.053-15.76-.613-1.493-2.613-7.467.587-15.547 0 0 4.933-1.573 16.16 6.027 4.693-1.307 9.707-1.947 14.72-1.973 5.013.027 10.027.667 14.72 1.973 11.2-7.6 16.133-6.027 16.133-6.027 3.2 8.08 1.2 14.053.6 15.547 3.787 4.107 6.027 9.36 6.027 15.76 0 22.587-13.733 27.52-26.827 28.987 2.107 1.84 4 5.44 4 10.96 0 7.92-.08 14.293-.08 16.24 0 1.573 1.04 3.413 4.027 2.827C105.893 111.867 122.667 89.893 122.667 64 122.667 31.6 96.4 5.333 64 5.333z"/>
+                  </svg>
+                </span>
+                <span class="tech-name">GitHub</span>
+              </div>
+              <div class="tech-card reveal-on-scroll stagger-3">
+                <span class="tech-icon" aria-hidden="true">
+                  <svg viewBox="0 0 128 128" width="28" height="28">
+                    <path fill="#007ACC" d="M96.7 11.3L70.4 36.4 26.2 1.3C23.6-.8 19.8.3 18.4 3.5l-16.1 36c-.9 2.1-.4 4.5 1.3 6.1l23.5 22.4L3.6 90.4c-1.7 1.6-2.2 4-.1 6.1l16.1 36c1.4 3.2 5.2 4.3 7.8 2.2l44.2-35.1 26.3 25.1c3.2 3.1 8.5 1.8 9.9-2.5l19.5-56c1.2-3.4 1.2-7.1 0-10.5l-19.5-56c-1.4-4.3-6.7-5.6-9.9-2.5zM96.7 64L48.2 25.5l27.1 38.5-27.1 38.5L96.7 64z"/>
+                  </svg>
+                </span>
+                <span class="tech-name">VS Code</span>
+              </div>
+              <div class="tech-card reveal-on-scroll stagger-1">
+                <span class="tech-icon" aria-hidden="true">
+                  <svg viewBox="0 0 128 128" width="28" height="28">
+                    <path fill="#EA4C1D" d="M64 42.667A21.333 21.333 0 0042.667 21.333H64v21.334z"/>
+                    <path fill="#F24E1E" d="M42.667 21.333A21.333 21.333 0 0021.333 42.667 21.333 21.333 0 0042.667 64H64V21.333H42.667z"/>
+                    <path fill="#A259FF" d="M42.667 64A21.333 21.333 0 0021.333 85.333 21.333 21.333 0 0042.667 106.667H64V64H42.667z"/>
+                    <path fill="#1ABCFE" d="M42.667 106.667A21.333 21.333 0 0064 128v-21.333H42.667z"/>
+                    <path fill="#0ACF83" d="M106.667 64a21.333 21.333 0 100-42.667 21.333 21.333 0 000 42.667z"/>
+                    <path fill="#FF7262" d="M64 21.333h21.333a21.333 21.333 0 11-21.333 21.334V21.333z"/>
+                  </svg>
+                </span>
+                <span class="tech-name">Figma</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Infinite Marquee Section -->
+    <section class="marquee-section reveal-on-scroll" aria-label="Core Philosophy Marquee">
+      <div class="marquee-wrapper">
+        <div class="marquee-track">
+          <div class="marquee-content">
+            <span class="marquee-phrase">BUILD <span class="marquee-bullet">•</span> LEARN <span class="marquee-bullet">•</span> EXPLORE <span class="marquee-bullet">•</span> CREATE <span class="marquee-bullet">•</span> INNOVATE</span>
+            <span class="marquee-phrase">BUILD <span class="marquee-bullet">•</span> LEARN <span class="marquee-bullet">•</span> EXPLORE <span class="marquee-bullet">•</span> CREATE <span class="marquee-bullet">•</span> INNOVATE</span>
+            <span class="marquee-phrase">BUILD <span class="marquee-bullet">•</span> LEARN <span class="marquee-bullet">•</span> EXPLORE <span class="marquee-bullet">•</span> CREATE <span class="marquee-bullet">•</span> INNOVATE</span>
+          </div>
+          <div class="marquee-content" aria-hidden="true">
+            <span class="marquee-phrase">BUILD <span class="marquee-bullet">•</span> LEARN <span class="marquee-bullet">•</span> EXPLORE <span class="marquee-bullet">•</span> CREATE <span class="marquee-bullet">•</span> INNOVATE</span>
+            <span class="marquee-phrase">BUILD <span class="marquee-bullet">•</span> LEARN <span class="marquee-bullet">•</span> EXPLORE <span class="marquee-bullet">•</span> CREATE <span class="marquee-bullet">•</span> INNOVATE</span>
+            <span class="marquee-phrase">BUILD <span class="marquee-bullet">•</span> LEARN <span class="marquee-bullet">•</span> EXPLORE <span class="marquee-bullet">•</span> CREATE <span class="marquee-bullet">•</span> INNOVATE</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Work / Projects Section -->
+    <section class="work-section section" id="work" aria-label="Selected Projects">
+      <div class="container">
+        <div class="work-header reveal-on-scroll">
+          <span class="section-label">03 — SELECTED WORK</span>
+          <h2 class="section-title">Things I've built.</h2>
+          <p class="section-subtitle">
+            A collection of real projects, experiments and ideas brought to life.
+          </p>
+        </div>
+
+        <div class="projects-list">
+          
+          <!-- Project 01: VRINDA -->
+          <article class="project-card reveal-on-scroll" id="project-vrinda">
+            <div class="project-preview-wrapper">
+              <img src="assets/images/vrinda-preview.png" alt="Vrinda Botanical Rituals — Ancient Ingredients, Modern Care" class="project-preview-img scale-reveal" loading="lazy" decoding="async">
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta-top">
+                <span class="project-number">01 — VRINDA</span>
+                <h3 class="project-title">Vrinda</h3>
+                <p class="project-description">
+                  A real-world project focused on building a useful digital experience.
+                </p>
+                <div class="project-tags" aria-label="Project tags">
+                  <span class="tag-badge">Web Development</span>
+                  <span class="tag-badge">UI/UX</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="#project-vrinda" class="btn btn-primary btn-sm" aria-label="View Vrinda Project">
+                  View Project ↗
+                </a>
+                <a href="https://github.com/gargharshit304-lab/Vrinda_1" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="Vrinda GitHub Repository">
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 02: CLEARBILL -->
+          <article class="project-card reveal-on-scroll" id="project-clearbill">
+            <div class="project-preview-wrapper">
+              <img src="assets/images/clearbill-preview.png" alt="ClearBill - Understand Your Hospital Bill Before You Pay" class="project-preview-img scale-reveal" loading="lazy" decoding="async">
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta-top">
+                <span class="project-number">02 — CLEARBILL</span>
+                <h3 class="project-title">ClearBill</h3>
+                <p class="project-description">
+                  A real-world project designed to solve a practical problem through a simple digital experience.
+                </p>
+                <div class="project-tags" aria-label="Project tags">
+                  <span class="tag-badge">Web Development</span>
+                  <span class="tag-badge">Product</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="#project-clearbill" class="btn btn-primary btn-sm" aria-label="View ClearBill Project">
+                  View Project ↗
+                </a>
+                <a href="https://github.com/gargharshit304-lab/ClearBill" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="ClearBill GitHub Repository">
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 03: QUICKVET -->
+          <article class="project-card reveal-on-scroll" id="project-quickvet">
+            <div class="project-preview-wrapper">
+              <img src="assets/images/quickvet-preview.png" alt="QuickVet — Premium Veterinary Care at Your Fingertips" class="project-preview-img scale-reveal" loading="lazy" decoding="async">
+            </div>
+
+            <div class="project-info">
+              <div class="project-meta-top">
+                <span class="project-number">03 — QUICKVET</span>
+                <h3 class="project-title">QuickVet</h3>
+                <p class="project-description">
+                  A digital product focused on creating a simple and accessible user experience.
+                </p>
+                <div class="project-tags" aria-label="Project tags">
+                  <span class="tag-badge">Web Development</span>
+                  <span class="tag-badge">Product</span>
+                </div>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://quick-vets2-o.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm" aria-label="View QuickVet Live Project (opens in new tab)">
+                  View Project ↗
+                </a>
+                <a href="https://github.com/Abhishek-gupta18/QuickVets2.O" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" aria-label="QuickVet GitHub Repository">
+                  GitHub ↗
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Hackathons & Achievements Section -->
+    <section class="achievements-section section" id="achievements" aria-label="Hackathons and Achievements">
+      <div class="container">
+        <div class="achievements-header reveal-on-scroll">
+          <span class="section-label">04 — HACKATHONS &amp; ACHIEVEMENTS</span>
+          <h2 class="section-title">Built under pressure. Learned even more.</h2>
+          <p class="section-subtitle">
+            A few milestones from hackathons and competitions that pushed me to build, collaborate, and learn faster.
+          </p>
+        </div>
+
+        <div class="certificates-grid" id="certificates-grid">
+          <!-- Certificate Card 1 -->
+          <article class="certificate-card reveal-on-scroll stagger-1">
+            <div class="certificate-preview-frame">
+              <img src="assets/certificates/certificate-1.svg" alt="Hackathon Certificate Preview" class="certificate-img scale-reveal" loading="lazy" decoding="async" data-cert-src="assets/certificates/certificate-1.svg" data-cert-title="Hackathon Name">
+            </div>
+            <div class="certificate-info">
+              <h3 class="certificate-title">Hackathon Name</h3>
+              <p class="certificate-meta">Event / Organization · 2026</p>
+              <button type="button" class="btn-certificate-action view-cert-btn" data-cert-src="assets/certificates/certificate-1.svg" data-cert-title="Hackathon Name" aria-label="View Certificate 1">
+                View Certificate <span class="action-arrow">↗</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Certificate Card 2 -->
+          <article class="certificate-card reveal-on-scroll stagger-2">
+            <div class="certificate-preview-frame">
+              <img src="assets/certificates/certificate-2.svg" alt="Hackathon Certificate Preview" class="certificate-img scale-reveal" loading="lazy" decoding="async" data-cert-src="assets/certificates/certificate-2.svg" data-cert-title="Hackathon Name">
+            </div>
+            <div class="certificate-info">
+              <h3 class="certificate-title">Hackathon Name</h3>
+              <p class="certificate-meta">Event / Organization · 2026</p>
+              <button type="button" class="btn-certificate-action view-cert-btn" data-cert-src="assets/certificates/certificate-2.svg" data-cert-title="Hackathon Name" aria-label="View Certificate 2">
+                View Certificate <span class="action-arrow">↗</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Certificate Card 3 -->
+          <article class="certificate-card reveal-on-scroll stagger-1">
+            <div class="certificate-preview-frame">
+              <img src="assets/certificates/certificate-3.svg" alt="Hackathon Certificate Preview" class="certificate-img scale-reveal" loading="lazy" decoding="async" data-cert-src="assets/certificates/certificate-3.svg" data-cert-title="Hackathon Name">
+            </div>
+            <div class="certificate-info">
+              <h3 class="certificate-title">Hackathon Name</h3>
+              <p class="certificate-meta">Event / Organization · 2026</p>
+              <button type="button" class="btn-certificate-action view-cert-btn" data-cert-src="assets/certificates/certificate-3.svg" data-cert-title="Hackathon Name" aria-label="View Certificate 3">
+                View Certificate <span class="action-arrow">↗</span>
+              </button>
+            </div>
+          </article>
+
+          <!-- Certificate Card 4 -->
+          <article class="certificate-card reveal-on-scroll stagger-2">
+            <div class="certificate-preview-frame">
+              <img src="assets/certificates/certificate-4.svg" alt="Hackathon Certificate Preview" class="certificate-img scale-reveal" loading="lazy" decoding="async" data-cert-src="assets/certificates/certificate-4.svg" data-cert-title="Hackathon Name">
+            </div>
+            <div class="certificate-info">
+              <h3 class="certificate-title">Hackathon Name</h3>
+              <p class="certificate-meta">Event / Organization · 2026</p>
+              <button type="button" class="btn-certificate-action view-cert-btn" data-cert-src="assets/certificates/certificate-4.svg" data-cert-title="Hackathon Name" aria-label="View Certificate 4">
+                View Certificate <span class="action-arrow">↗</span>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Minimal Contact Section -->
+    <section class="contact-section section" id="contact" aria-label="Contact Section">
+      <div class="container">
+        <div class="contact-card reveal-on-scroll">
+          <span class="section-label">GET IN TOUCH</span>
+          <h2 class="contact-heading">Let's connect &amp; build together.</h2>
+          <p class="contact-subtitle">
+            Interested in collaborating, discussing product ideas, or just saying hello? Feel free to reach out.
+          </p>
+          <div class="contact-actions">
+            <button type="button" class="btn btn-primary" id="contact-email-btn" aria-haspopup="dialog">
+              Send an Email ↗
+            </button>
+            <a href="https://www.linkedin.com/in/gargharshit304/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              Connect on LinkedIn ↗
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Direct Email Contact Modal -->
+  <div class="email-modal-overlay" id="email-modal-overlay" aria-hidden="true">
+    <div class="email-modal-container" role="dialog" aria-modal="true" aria-labelledby="modal-title" id="email-modal">
+      <button type="button" class="modal-close-btn" id="modal-close" aria-label="Close modal">×</button>
+      
+      <div class="modal-header">
+        <span class="section-label">GET IN TOUCH</span>
+        <h2 class="modal-title" id="modal-title">Send me a message.</h2>
+        <p class="modal-subtitle">Have something you'd like to discuss? Send me a message directly from here.</p>
+      </div>
+
+      <!-- Contact Form -->
+      <form class="email-form" id="email-form" novalidate>
+        <!-- TO FIELD (Read-Only) -->
+        <div class="form-group">
+          <label for="email-to" class="form-label">TO</label>
+          <input type="text" id="email-to" class="form-input form-input-readonly" value="gargharshit304@gmail.com" readonly tabindex="-1">
+        </div>
+
+        <!-- NAME FIELD -->
+        <div class="form-group">
+          <label for="email-name" class="form-label">NAME <span class="required-star">*</span></label>
+          <input type="text" id="email-name" name="name" class="form-input" placeholder="Enter your name" required autocomplete="name">
+          <span class="field-error" id="name-error" aria-live="polite"></span>
+        </div>
+
+        <!-- FROM FIELD -->
+        <div class="form-group">
+          <label for="email-from" class="form-label">FROM <span class="required-star">*</span></label>
+          <input type="email" id="email-from" name="email" class="form-input" placeholder="Enter your email address" required autocomplete="email">
+          <span class="field-error" id="from-error" aria-live="polite"></span>
+        </div>
+
+        <!-- SUBJECT FIELD (Optional) -->
+        <div class="form-group">
+          <label for="email-subject" class="form-label">SUBJECT</label>
+          <input type="text" id="email-subject" name="subject" class="form-input" placeholder="What would you like to discuss?">
+        </div>
+
+        <!-- MESSAGE FIELD -->
+        <div class="form-group">
+          <label for="email-message" class="form-label">MESSAGE <span class="required-star">*</span></label>
+          <textarea id="email-message" name="message" class="form-textarea" placeholder="Write your message..." required rows="5"></textarea>
+          <span class="field-error" id="message-error" aria-live="polite"></span>
+        </div>
+
+        <!-- Form Status Alert -->
+        <div class="form-status-alert" id="form-status-alert" aria-live="polite"></div>
+
+        <!-- Form Action Button -->
+        <div class="modal-actions">
+          <button type="submit" class="btn btn-primary modal-submit-btn" id="modal-submit-btn">
+            Send Message ↗
+          </button>
+        </div>
+      </form>
+
+      <!-- Success State View (Hidden by default) -->
+      <div class="modal-success-view" id="modal-success-view" style="display: none;">
+        <div class="success-icon-badge" aria-hidden="true">✓</div>
+        <h3 class="success-title">Message sent ✓</h3>
+        <p class="success-subtitle">Thanks for reaching out. I'll get back to you soon.</p>
+        <button type="button" class="btn btn-primary" id="modal-success-close-btn">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Certificate Full-Screen Lightbox Viewer -->
+  <div class="lightbox-overlay" id="certificate-lightbox" aria-hidden="true">
+    <div class="lightbox-container" role="dialog" aria-modal="true" aria-label="Certificate Full Screen Viewer">
+      <button type="button" class="lightbox-close-btn" id="lightbox-close" aria-label="Close lightbox">×</button>
+      <div class="lightbox-content">
+        <img src="" alt="Certificate Full View" class="lightbox-img" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-copy">
+          © <span id="current-year">2026</span> Harshit Garg. All rights reserved.
+        </div>
+        <ul class="footer-links">
+          <li><a href="#hero" class="footer-link">Back to top ↑</a></li>
+          <li><a href="https://github.com/gargharshit304-lab" target="_blank" rel="noopener noreferrer" class="footer-link">GitHub ↗</a></li>
+          <li><a href="https://www.linkedin.com/in/gargharshit304/" target="_blank" rel="noopener noreferrer" class="footer-link">LinkedIn ↗</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
